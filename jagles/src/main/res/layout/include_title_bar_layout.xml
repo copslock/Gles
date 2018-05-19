@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="当前Kp2p的版本为：0.1.40"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            />
+
+        <Button
+            android:id="@+id/title_cancel_btn"
+            android:layout_width="56dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/selector_default_item_tra_bg"
+            android:gravity="center"
+            android:text="返回" />
+
+        <Button
+            android:id="@+id/title_add_btn"
+            android:layout_width="56dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:background="@drawable/selector_default_item_tra_bg"
+            android:text="添加" />
+
+
+    </FrameLayout>
+
+</LinearLayout>

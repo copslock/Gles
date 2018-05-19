@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/connect_btn"
+            style="@style/action_btn_style"
+            android:text="连接" />
+
+        <Button
+            android:id="@+id/disconnect_btn"
+            style="@style/action_btn_style"
+            android:text="断开连接" />
+
+        <Button
+            android:id="@+id/open_device_btn"
+            style="@style/action_btn_style"
+            android:text="打开码流" />
+
+        <Button
+            android:id="@+id/close_device_btn"
+            style="@style/action_btn_style"
+            android:text="关闭码流" />
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/screen_recycler_view"
+            android:layout_width="92dp"
+            android:layout_height="match_parent">
+
+        </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/open_test_demo_btn"
+            style="@style/action_btn_style"
+            android:text="打开测试demo"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/open_m3u8_btn"
+            style="@style/action_btn_style"
+            android:text="打开M3u8视频"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#006c54</color>
+    <color name="colorPrimaryDark">#006c54</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="jagles_item_pressed">#dcdcdc</color>
+    <color name="jagles_white">#ffffff</color>
+
+    <color name="jagles_transparent">#00ffffff</color>
+
+    <color name="jagles_gray">#cccccc</color>
+
+</resources>

@@ -1,0 +1,14 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=/Users/zasko/Downloads/Chrome/CompileFFmpegWithOpenSSL-master/libs/ffmpeg/binaries/armeabi-v7a
+includedir=/Users/zasko/Downloads/Chrome/CompileFFmpegWithOpenSSL-master/libs/ffmpeg/include/armeabi-v7a
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 55.58.100
+Requires: 
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavutil 
+Libs.private: -lm
+Cflags: -I${includedir}
